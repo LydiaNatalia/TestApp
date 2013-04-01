@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_TanggungJawab" items="${tanggungjawabs}" z="nZBnWNuPve7Xa/Ocq7LX8nTd5oo=">
+        <table:table data="${tanggungjawabs}" id="l_com_rpll_app_model_TanggungJawab" path="/tanggungjawabs" z="gCVA6mmFD3nva9mCp58aASJXzhY=">
+            <table:column id="c_com_rpll_app_model_TanggungJawab_nip" property="nip" z="zsc2ID5TUFJz/JVDOE5tEH8qios="/>
+            <table:column id="c_com_rpll_app_model_TanggungJawab_kodeMatkul" property="kodeMatkul" z="UEnr+1a4WYIbflTGRECDmCl6a6c="/>
+        </table:table>
+    </page:list>
+</div>

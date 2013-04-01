@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Biaya" object="${biaya}" path="/biayas" z="EttSdBqypcSgopgxs6Px6VC8IX4=">
+        <field:display field="biayaTetap" id="s_com_rpll_app_model_Biaya_biayaTetap" object="${biaya}" z="rs4biW/r7+jQ89XFFSRHzYY23GU="/>
+        <field:display field="biayaSks" id="s_com_rpll_app_model_Biaya_biayaSks" object="${biaya}" z="knjZ6QEJauDWSS8wvhs8C9Jzy7w="/>
+        <field:display field="biayaPraktikum" id="s_com_rpll_app_model_Biaya_biayaPraktikum" object="${biaya}" z="lNanM5McjE9lvYZd9vNfk00n+sI="/>
+        <field:display field="biayaMhs" id="s_com_rpll_app_model_Biaya_biayaMhs" object="${biaya}" z="+Iqkljk4eg4pOwJnqv9R1mvG9O0="/>
+    </page:show>
+</div>

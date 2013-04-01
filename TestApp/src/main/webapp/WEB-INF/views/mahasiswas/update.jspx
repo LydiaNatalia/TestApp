@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rpll_app_model_Mahasiswa" idField="nim" modelAttribute="mahasiswa" path="/mahasiswas" versionField="none" z="0UgEZbvLmwLtC/wKLwQpuSYkbRU=">
+        <field:simple field="absens" id="c_com_rpll_app_model_Mahasiswa_absens" messageCode="entity_reference_not_managed" messageCodeAttribute="Absen" z="454jTVzLjru4KDqO9uJeoKZc2uo="/>
+        <field:simple field="frss" id="c_com_rpll_app_model_Mahasiswa_frss" messageCode="entity_reference_not_managed" messageCodeAttribute="Frs" z="lD4wTyVdCRAEtTbGRYLvD/0Rae0="/>
+        <field:simple field="kritikSarans" id="c_com_rpll_app_model_Mahasiswa_kritikSarans" messageCode="entity_reference_not_managed" messageCodeAttribute="Kritik Saran" z="i0QalXt1v6BX4KyjzIW57ePLAyY="/>
+        <field:simple field="nilais" id="c_com_rpll_app_model_Mahasiswa_nilais" messageCode="entity_reference_not_managed" messageCodeAttribute="Nilai" z="Pg9hw24rZufQTeVrPeIRytAoJY0="/>
+        <field:select field="kodeBiaya" id="c_com_rpll_app_model_Mahasiswa_kodeBiaya" itemValue="kodeBiaya" items="${biayas}" path="/biayas" z="xToPWXGHjQv4YyjYXoFHl4zBLek="/>
+        <field:select field="kodeDepart" id="c_com_rpll_app_model_Mahasiswa_kodeDepart" itemValue="kodeDepart" items="${departemens}" path="/departemens" z="x0o1CXOY+KuY1tTWGLBm488Gg7o="/>
+        <field:select field="nip" id="c_com_rpll_app_model_Mahasiswa_nip" itemValue="nip" items="${pegawais}" path="/pegawais" z="G0VRWE3j67OcFjQwA0AR3vjIYps="/>
+        <field:input field="namaMhs" id="c_com_rpll_app_model_Mahasiswa_namaMhs" z="rSKu99Cy1ITR71F72DObB0u85nY="/>
+        <field:input field="statusMhs" id="c_com_rpll_app_model_Mahasiswa_statusMhs" z="z4XNH7M9p7qd7rwWQK0QAbWlCfI="/>
+        <field:input field="ipk" id="c_com_rpll_app_model_Mahasiswa_ipk" validationMessageCode="field_invalid_integer" z="lj5oyHvpuWv/3eKyDqPUshjEjjI="/>
+        <field:input field="passMhs" id="c_com_rpll_app_model_Mahasiswa_passMhs" z="piDg043CWFtdB+XYSMrF9e3dAx8="/>
+        <field:input field="teleponMhs" id="c_com_rpll_app_model_Mahasiswa_teleponMhs" z="aiYNpDAGneVnkiMae0rUA+R5wOA="/>
+        <field:input field="alamatMhs" id="c_com_rpll_app_model_Mahasiswa_alamatMhs" z="Vfe8mSgKTLojYxV1O0HlO0C2SLc="/>
+        <field:input field="jenisKelamin" id="c_com_rpll_app_model_Mahasiswa_jenisKelamin" z="0qonAn9XL5ycbXyClsPTay/H9WY="/>
+    </form:update>
+</div>

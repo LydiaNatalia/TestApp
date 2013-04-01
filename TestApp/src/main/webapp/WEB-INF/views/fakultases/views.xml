@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="fakultases/list">
+        <put-attribute name="body" value="/WEB-INF/views/fakultases/list.jspx"/>
+    </definition>
+<definition extends="default" name="fakultases/show">
+        <put-attribute name="body" value="/WEB-INF/views/fakultases/show.jspx"/>
+    </definition>
+<definition extends="default" name="fakultases/create">
+        <put-attribute name="body" value="/WEB-INF/views/fakultases/create.jspx"/>
+    </definition>
+<definition extends="default" name="fakultases/update">
+        <put-attribute name="body" value="/WEB-INF/views/fakultases/update.jspx"/>
+    </definition>
+</tiles-definitions>

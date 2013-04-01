@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="tanggungjawabs/list">
+        <put-attribute name="body" value="/WEB-INF/views/tanggungjawabs/list.jspx"/>
+    </definition>
+<definition extends="default" name="tanggungjawabs/show">
+        <put-attribute name="body" value="/WEB-INF/views/tanggungjawabs/show.jspx"/>
+    </definition>
+<definition extends="default" name="tanggungjawabs/create">
+        <put-attribute name="body" value="/WEB-INF/views/tanggungjawabs/create.jspx"/>
+    </definition>
+<definition extends="default" name="tanggungjawabs/update">
+        <put-attribute name="body" value="/WEB-INF/views/tanggungjawabs/update.jspx"/>
+    </definition>
+</tiles-definitions>

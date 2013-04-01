@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Frs" object="${frs}" path="/frses" z="6szHk5DRnV5E1oItMqvSmc1XQqA=">
+        <field:display field="nim" id="s_com_rpll_app_model_Frs_nim" object="${frs}" z="42GL1M4yXTKy7qUnDs8ai70I+hw="/>
+        <field:display field="kodeMatkul" id="s_com_rpll_app_model_Frs_kodeMatkul" object="${frs}" z="EVv9pju1pPlhZ8C/rDZP2fNlIZw="/>
+        <field:display field="nip" id="s_com_rpll_app_model_Frs_nip" object="${frs}" z="hHytwYsFg1lxvDq5UxI6H+WU260="/>
+        <field:display field="statusValid" id="s_com_rpll_app_model_Frs_statusValid" object="${frs}" z="EFJljEF63mG9RBwm6BozOnFU/gI="/>
+    </page:show>
+</div>

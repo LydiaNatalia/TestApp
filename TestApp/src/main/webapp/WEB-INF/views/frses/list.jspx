@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Frs" items="${frses}" z="KUBIjekGRPYXOv5maDo+du7wkAA=">
+        <table:table data="${frses}" id="l_com_rpll_app_model_Frs" path="/frses" z="xFx04UN6Oh099j/aW7y21S1yTMc=">
+            <table:column id="c_com_rpll_app_model_Frs_nim" property="nim" z="71g68eU8wSylWWc6X75vPStJItM="/>
+            <table:column id="c_com_rpll_app_model_Frs_kodeMatkul" property="kodeMatkul" z="0bVtqY23q2nIds6jO+RLKqv8gKk="/>
+            <table:column id="c_com_rpll_app_model_Frs_nip" property="nip" z="vxB7NQdNPWiWEtarKCN8OnsomIo="/>
+            <table:column id="c_com_rpll_app_model_Frs_statusValid" property="statusValid" z="RZnAD8M9rTzjg9C4AAQoBxTNed0="/>
+        </table:table>
+    </page:list>
+</div>

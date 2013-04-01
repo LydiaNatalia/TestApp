@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Mahasiswa" object="${mahasiswa}" path="/mahasiswas" z="xVgGrzjAr9iG2Jpwpm089DH8fjU=">
+        <field:display field="kodeBiaya" id="s_com_rpll_app_model_Mahasiswa_kodeBiaya" object="${mahasiswa}" z="/+uAeBvbm+zAA1l1T+N/b5Wu8Ks="/>
+        <field:display field="kodeDepart" id="s_com_rpll_app_model_Mahasiswa_kodeDepart" object="${mahasiswa}" z="Hyo5gE3js6UH/tVgaDjEjM0rSqs="/>
+        <field:display field="nip" id="s_com_rpll_app_model_Mahasiswa_nip" object="${mahasiswa}" z="+JENgUJ2dqhHQ6Aap6i/LHTo4nA="/>
+        <field:display field="namaMhs" id="s_com_rpll_app_model_Mahasiswa_namaMhs" object="${mahasiswa}" z="Bm9YSX+kEv7wuGjW0Uqi2Aa22JE="/>
+        <field:display field="statusMhs" id="s_com_rpll_app_model_Mahasiswa_statusMhs" object="${mahasiswa}" z="No+BAE7RV++3eg290iznzw6P4cU="/>
+        <field:display field="ipk" id="s_com_rpll_app_model_Mahasiswa_ipk" object="${mahasiswa}" z="spCP81GLqswHXuDJpoE2RCxbvvY="/>
+        <field:display field="passMhs" id="s_com_rpll_app_model_Mahasiswa_passMhs" object="${mahasiswa}" z="oA0qqjWwMToSTJQWM4ecpMkz/LE="/>
+        <field:display field="teleponMhs" id="s_com_rpll_app_model_Mahasiswa_teleponMhs" object="${mahasiswa}" z="8rxfbNaNW/IEm3tXY72fEHOP3sI="/>
+        <field:display field="alamatMhs" id="s_com_rpll_app_model_Mahasiswa_alamatMhs" object="${mahasiswa}" z="AQDGECXYDInGm9Q97Klkk/+jrfs="/>
+        <field:display field="jenisKelamin" id="s_com_rpll_app_model_Mahasiswa_jenisKelamin" object="${mahasiswa}" z="fGDtHK0ZikplqiOT0PAL9EwgZAI="/>
+    </page:show>
+</div>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_departemen" z="5pUITvE9Se/efkGkr5qNLk/9hfc=">
+            <menu:item id="i_departemen_new" messageCode="global_menu_new" url="/departemens?form" z="XU3aihVgG/TemMUuwXXxGJJojtc="/>
+            <menu:item id="i_departemen_list" messageCode="global_menu_list" url="/departemens?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4vBEqjCJLKFMwoxqY8tRn7KM0n4="/>
+        </menu:category>
+        <menu:category id="c_fasilitas" z="8fPRvUP/dNU1NHsDfFoaFFxQR4Q=">
+            <menu:item id="i_fasilitas_new" messageCode="global_menu_new" url="/fasilitases?form" z="TAjhjBYO5uyUyIVTbgBbxQcEzf8="/>
+            <menu:item id="i_fasilitas_list" messageCode="global_menu_list" url="/fasilitases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2Wgqbu0/cf+KisOu7eHMWtnUOx8="/>
+        </menu:category>
+        <menu:category id="c_biaya" z="YeFWlhcn9ugLGVyhZ+jakKI7g5U=">
+            <menu:item id="i_biaya_new" messageCode="global_menu_new" url="/biayas?form" z="VNW3C9whNflyWZF5p/LO0AZuFRc="/>
+            <menu:item id="i_biaya_list" messageCode="global_menu_list" url="/biayas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="XCcHt47Ng2p3+66V/IYZA98upTY="/>
+        </menu:category>
+        <menu:category id="c_kelas" z="NttuAIdq0f/H22g4d+GfMzwQncA=">
+            <menu:item id="i_kelas_new" messageCode="global_menu_new" url="/kelases?form" z="1xzWsDVJE/x+Aqh3rQGF16AQa8s="/>
+            <menu:item id="i_kelas_list" messageCode="global_menu_list" url="/kelases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="DQd8eQrU2y5T4MBC0SxxeHlX38Y="/>
+        </menu:category>
+        <menu:category id="c_fakultas" z="a83Y7iyqcGtAjIX6iTe+2NSOgyQ=">
+            <menu:item id="i_fakultas_new" messageCode="global_menu_new" url="/fakultases?form" z="hvJzuF8SBkqnqL+RvXpo45FQPT0="/>
+            <menu:item id="i_fakultas_list" messageCode="global_menu_list" url="/fakultases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GYQ1FKHeYlJ/mkKbiIhUOsWio9o="/>
+        </menu:category>
+        <menu:category id="c_periode" z="pfK1EvvZQpH2B3NO3ofIdnO6vDs=">
+            <menu:item id="i_periode_new" messageCode="global_menu_new" url="/periodes?form" z="3r3KUwNcJ3z2cwbzYKT9BYpylXg="/>
+            <menu:item id="i_periode_list" messageCode="global_menu_list" url="/periodes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="dDu6izLr3FERQTB+FHEMN0TvN2w="/>
+        </menu:category>
+        <menu:category id="c_matakuliah" z="f/p4WNkFicZOs7DpvUjA4X/jkKg=">
+            <menu:item id="i_matakuliah_new" messageCode="global_menu_new" url="/matakuliahs?form" z="84qA3mzk7QKNxX5Uac5j0xuIVoM="/>
+            <menu:item id="i_matakuliah_list" messageCode="global_menu_list" url="/matakuliahs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="NefJsnecDhM058VIf82bXTbIU8A="/>
+        </menu:category>
+        <menu:category id="c_nilai" z="eHX0hWN+h+wjrj7ER2CmLv6U+NI=">
+            <menu:item id="i_nilai_new" messageCode="global_menu_new" url="/nilais?form" z="tYt9aCBJnTg8sPrueFNoPIcA3x0="/>
+            <menu:item id="i_nilai_list" messageCode="global_menu_list" url="/nilais?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RTyOhUYHY6cgInJBdkMy0WG1s5w="/>
+        </menu:category>
+        <menu:category id="c_bahankuliah" z="AcYZ500i2hkGl8spju6UdQ/Ihww=">
+            <menu:item id="i_bahankuliah_new" messageCode="global_menu_new" url="/bahankuliahs?form" z="Fpy0tHSVThZJGLXvANSZIoIiqW8="/>
+            <menu:item id="i_bahankuliah_list" messageCode="global_menu_list" url="/bahankuliahs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ucGmAtpcMonxuzbds3gnJ7GCEwU="/>
+        </menu:category>
+        <menu:category id="c_kritiksaran" z="SbflcpiVZLxHM6OYtvgkSQK9fvg=">
+            <menu:item id="i_kritiksaran_new" messageCode="global_menu_new" url="/kritiksarans?form" z="haHSAY1tFhDGebMRhRj65juepDQ="/>
+            <menu:item id="i_kritiksaran_list" messageCode="global_menu_list" url="/kritiksarans?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8SH5k5p69HPyOknrOUZOmB1g6Kc="/>
+        </menu:category>
+        <menu:category id="c_pengumuman" z="01C/v4ogowoLzBhI+Q+rQRvfQLo=">
+            <menu:item id="i_pengumuman_new" messageCode="global_menu_new" url="/pengumumen?form" z="0wISBrCdlYATGiNOUXXgCx++ITM="/>
+            <menu:item id="i_pengumuman_list" messageCode="global_menu_list" url="/pengumumen?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8diPSUAt7V9CV3XdXSKwHvHJGO0="/>
+        </menu:category>
+        <menu:category id="c_hakakses" z="4opPo31X+S0EiTCNRoC4fDTRo6Y=">
+            <menu:item id="i_hakakses_new" messageCode="global_menu_new" url="/hakakseses?form" z="Pm2QPHO75o5L11BFN7729Iek9PU="/>
+            <menu:item id="i_hakakses_list" messageCode="global_menu_list" url="/hakakseses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="nFR6gQ2mbhesFoAAMsXTPwGJQ9c="/>
+        </menu:category>
+        <menu:category id="c_badanhukum" z="s5yWK4TyO92iwx74an7JN+orwls=">
+            <menu:item id="i_badanhukum_new" messageCode="global_menu_new" url="/badanhukums?form" z="udfMwIG0OTsviyCj+erUNiVlYrs="/>
+            <menu:item id="i_badanhukum_list" messageCode="global_menu_list" url="/badanhukums?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MpgIoowizpDq9Vqr0at1YbLi/IM="/>
+        </menu:category>
+        <menu:category id="c_absen" z="qS9eehJyUkiCaMPuz2HnhDCACtI=">
+            <menu:item id="i_absen_new" messageCode="global_menu_new" url="/absens?form" z="sgNAgU6z+tmRtQ1daYlHLAG28L0="/>
+            <menu:item id="i_absen_list" messageCode="global_menu_list" url="/absens?page=1&amp;size=${empty param.size ? 10 : param.size}" z="oRkMLcETWTfnpVvnym9JWfXpvIg="/>
+        </menu:category>
+        <menu:category id="c_jadwal" z="ieJG8/y0ujP7cmajPvHK0SSuxQ0=">
+            <menu:item id="i_jadwal_new" messageCode="global_menu_new" url="/jadwals?form" z="PW67BEzj5FhpN7MIKqUt5gXYoo8="/>
+            <menu:item id="i_jadwal_list" messageCode="global_menu_list" url="/jadwals?page=1&amp;size=${empty param.size ? 10 : param.size}" z="AOAu8Mho6I2tWLU8Rnh0r2rIhEQ="/>
+        </menu:category>
+        <menu:category id="c_mahasiswa" z="Ioi3bdh+Tfoq8IrP8C/j2zdSUyE=">
+            <menu:item id="i_mahasiswa_new" messageCode="global_menu_new" url="/mahasiswas?form" z="fMbtSYtnb3DIJMuy68MExHzNKnQ="/>
+            <menu:item id="i_mahasiswa_list" messageCode="global_menu_list" url="/mahasiswas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="M4/OGbjmGJJOJmliENGzjVfLooc="/>
+        </menu:category>
+        <menu:category id="c_staff" z="WEqNUFcSQYoW/mQULTlPjM/nWNU=">
+            <menu:item id="i_staff_new" messageCode="global_menu_new" url="/staffs?form" z="H2VWxcFT9MZjwJqkdaMj688QtI4="/>
+            <menu:item id="i_staff_list" messageCode="global_menu_list" url="/staffs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="s2koFiEuMF5CA25e3iXOXnGz8CQ="/>
+        </menu:category>
+        <menu:category id="c_tanggungjawab" z="IntpCSVSXy/96wXNZw4VubEASkw=">
+            <menu:item id="i_tanggungjawab_new" messageCode="global_menu_new" url="/tanggungjawabs?form" z="Ds0EUBdKEZMdKdh3avfjeNjabqI="/>
+            <menu:item id="i_tanggungjawab_list" messageCode="global_menu_list" url="/tanggungjawabs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="dATTDCdpQ9fOYQEdyjBqFZsAPtc="/>
+        </menu:category>
+        <menu:category id="c_frs" z="v9VH9i1w8eIIJWiZFwRCEMye7cI=">
+            <menu:item id="i_frs_new" messageCode="global_menu_new" url="/frses?form" z="GyCd27V2hMZXTSpK09TUXYGWKQs="/>
+            <menu:item id="i_frs_list" messageCode="global_menu_list" url="/frses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="yAxZUEGaKrs2FgXwL52qrNXbbus="/>
+        </menu:category>
+        <menu:category id="c_dosen" z="HhCO64id8FS1alabp+MlNtrzidg=">
+            <menu:item id="i_dosen_new" messageCode="global_menu_new" url="/dosens?form" z="0BKT865e8HqrGjEq0XoahHYlGMQ="/>
+            <menu:item id="i_dosen_list" messageCode="global_menu_list" url="/dosens?page=1&amp;size=${empty param.size ? 10 : param.size}" z="70SWVYcUuroCHksP1L+oRGS2Cwg="/>
+        </menu:category>
+        <menu:category id="c_pegawai" z="ndgsgFpTJfV6wPVnV+0UeS1mIVo=">
+            <menu:item id="i_pegawai_new" messageCode="global_menu_new" url="/pegawais?form" z="HnRFGF4+7+nMWcI1WkF1KMy/2Ok="/>
+            <menu:item id="i_pegawai_list" messageCode="global_menu_list" url="/pegawais?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ubP6664Yc7AGCG+mzhaG+mODyjs="/>
+        </menu:category>
+    </menu:menu>
+</div>

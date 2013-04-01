@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_com_rpll_app_model_Nilai" modelAttribute="nilai" path="/nilais" render="${empty dependencies}" z="CVhHCQ4H+8YpA1ySzmQNWkQxMoc=">
+        <field:input disableFormBinding="true" field="id.nim" id="c_com_rpll_app_model_Nilai_id_nim" required="true" z="bFqRzcwhnWZrMZC8U+NRg3tdW9o="/>
+        <field:input disableFormBinding="true" field="id.kodeMatkul" id="c_com_rpll_app_model_Nilai_id_kodeMatkul" required="true" z="MJZu4KlK4M5m4S2BwJd4w0uCPS4="/>
+        <field:input field="indeks" id="c_com_rpll_app_model_Nilai_indeks" z="asLldVjxZ0JO5F0uOl7dBAIBCj8="/>
+        <field:input field="semester" id="c_com_rpll_app_model_Nilai_semester" z="u0T2ZwIHBPNXqWVwUjkcy7jnwIo="/>
+        <field:input field="nilai1" id="c_com_rpll_app_model_Nilai_nilai1" validationMessageCode="field_invalid_integer" z="SbQfLEUrEqAMeyujboOBOKEo6io="/>
+        <field:input field="nilai2" id="c_com_rpll_app_model_Nilai_nilai2" validationMessageCode="field_invalid_integer" z="XHJhzvrBEoq4ytARov7kqDU1Sqo="/>
+        <field:input field="nilai3" id="c_com_rpll_app_model_Nilai_nilai3" validationMessageCode="field_invalid_integer" z="hlrc3eXyfCQqjR79ZexxIIrZ2pM="/>
+        <field:input field="nilai4" id="c_com_rpll_app_model_Nilai_nilai4" validationMessageCode="field_invalid_integer" z="1MnKhao9NjxqZQ0dMUw22HkS5IU="/>
+        <field:input field="nilai5" id="c_com_rpll_app_model_Nilai_nilai5" validationMessageCode="field_invalid_integer" z="5kdDIlz2WTSoXJ13308eFioCp6Y="/>
+        <field:input field="uas" id="c_com_rpll_app_model_Nilai_uas" validationMessageCode="field_invalid_integer" z="VxTYgQQpat87BGtCU9bRmpi500E="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_rpll_app_model_Nilai" render="${not empty dependencies}" z="8gvjf+LfezwbEAEHovUvBG4WF7Y="/>
+</div>

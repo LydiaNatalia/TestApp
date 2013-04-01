@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_rpll_app_model_Staff" modelAttribute="staff" path="/staffs" render="${empty dependencies}" z="vlMQPPkKM7ttjMfRzt4M/thtefQ=">
+        <field:select field="pegawai" id="c_com_rpll_app_model_Staff_pegawai" itemValue="nip" items="${pegawais}" path="/pegawais" z="oSe4icgr0E9r9JW4xbmEIgTeuKY="/>
+        <field:input field="passStaff" id="c_com_rpll_app_model_Staff_passStaff" z="p2kD0WDUacbdpcrj+av8n4XrREk="/>
+        <field:input field="jabatan" id="c_com_rpll_app_model_Staff_jabatan" z="mDCZR3ikVxr+mgwCgWoc3CA3Bps="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_rpll_app_model_Staff" render="${not empty dependencies}" z="j42rONQIixTK0d3eyGTMrwTEqYs="/>
+</div>

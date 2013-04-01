@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_HakAkses" items="${hakakseses}" z="M7HiuQYGsmgTNx3UldRHjpbr/jY=">
+        <table:table data="${hakakseses}" id="l_com_rpll_app_model_HakAkses" path="/hakakseses" typeIdFieldName="kodeAkses" z="jLi6P/imXnzXPMCETkj8GspjJ9c=">
+            <table:column id="c_com_rpll_app_model_HakAkses_updateBadanHukum" property="updateBadanHukum" z="KXGumtGFjFHf0+oWuSZMHj8pNfs="/>
+            <table:column id="c_com_rpll_app_model_HakAkses_updateDataFasilitas" property="updateDataFasilitas" z="EVl4Meak/Ao60jsOcEjJHEKeJ+M="/>
+            <table:column id="c_com_rpll_app_model_HakAkses_updateMataKuliah" property="updateMataKuliah" z="npsFFdDi8tds6ltvIMGitvo5jxE="/>
+            <table:column id="c_com_rpll_app_model_HakAkses_updateJadwalRuanganKelas" property="updateJadwalRuanganKelas" z="QYED0lIMqCqUqjDM0owgn4kewqY="/>
+            <table:column id="c_com_rpll_app_model_HakAkses_updateDataMahasiswaDanAlumni" property="updateDataMahasiswaDanAlumni" z="eX30ss1t9ZYyrsBfQq/djQffS8o="/>
+            <table:column id="c_com_rpll_app_model_HakAkses_updateDataStaffDanDosen" property="updateDataStaffDanDosen" z="mhu96kuWa0qLUqJhYm5ehEdd4Pw="/>
+        </table:table>
+    </page:list>
+</div>

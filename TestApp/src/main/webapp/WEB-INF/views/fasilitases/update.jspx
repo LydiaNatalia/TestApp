@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rpll_app_model_Fasilitas" idField="kodeFasilitas" modelAttribute="fasilitas" path="/fasilitases" versionField="none" z="E6NzJXD3/hl4fbQCvDY0CqTxCFU=">
+        <field:simple field="badanHukums" id="c_com_rpll_app_model_Fasilitas_badanHukums" messageCode="entity_reference_not_managed" messageCodeAttribute="Badan Hukum" z="g8Cs9fSJzrWNTRcH9IzCVEpfmdI="/>
+        <field:input field="luasTanah" id="c_com_rpll_app_model_Fasilitas_luasTanah" validationMessageCode="field_invalid_integer" z="33EvFOubEixIds/653W4vg5iLak="/>
+        <field:input field="luasLahan" id="c_com_rpll_app_model_Fasilitas_luasLahan" validationMessageCode="field_invalid_integer" z="CP+saOYlPbmx8qALBQIAiW5wA30="/>
+        <field:input field="luasRkuliah" id="c_com_rpll_app_model_Fasilitas_luasRkuliah" validationMessageCode="field_invalid_integer" z="gj3yC/sIW6ks08tmQQxCO4IVIK8="/>
+        <field:input field="jumlahRkuliah" id="c_com_rpll_app_model_Fasilitas_jumlahRkuliah" validationMessageCode="field_invalid_integer" z="jEPiLTlsViA8K5QR3qNTmUdp8EA="/>
+        <field:input field="luasRlab" id="c_com_rpll_app_model_Fasilitas_luasRlab" validationMessageCode="field_invalid_integer" z="IHBvmaIFpRavXVRcMaoDG8ek1qk="/>
+        <field:input field="jumlahRlab" id="c_com_rpll_app_model_Fasilitas_jumlahRlab" validationMessageCode="field_invalid_integer" z="5p1p3ImZv3AO168jjx91X6Jsot8="/>
+        <field:input field="luasRdosen" id="c_com_rpll_app_model_Fasilitas_luasRdosen" validationMessageCode="field_invalid_integer" z="99rH70CQfr9f44ReMHRHxkrPp8k="/>
+        <field:input field="luasRdmin" id="c_com_rpll_app_model_Fasilitas_luasRdmin" validationMessageCode="field_invalid_integer" z="Z2DgOvgEIK3rKe/Xmv40v0uzDwE="/>
+    </form:update>
+</div>

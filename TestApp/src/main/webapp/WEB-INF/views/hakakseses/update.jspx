@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rpll_app_model_HakAkses" idField="kodeAkses" modelAttribute="hakAkses" path="/hakakseses" versionField="none" z="upadq/vK//ZU8p7s1+uFT0U0UVo=">
+        <field:input field="updateBadanHukum" id="c_com_rpll_app_model_HakAkses_updateBadanHukum" z="taLA32xKeoMlE8BQ3PJrD+hZado="/>
+        <field:input field="updateDataFasilitas" id="c_com_rpll_app_model_HakAkses_updateDataFasilitas" z="gCK7cF1q5cd5QSsIU1wsj3ynTeo="/>
+        <field:input field="updateMataKuliah" id="c_com_rpll_app_model_HakAkses_updateMataKuliah" z="XbkBClf+GBlxFMGi99KvYcmBL70="/>
+        <field:input field="updateJadwalRuanganKelas" id="c_com_rpll_app_model_HakAkses_updateJadwalRuanganKelas" z="IsKAzCxXHepxpXmnZKNDP5YrK20="/>
+        <field:input field="updateDataMahasiswaDanAlumni" id="c_com_rpll_app_model_HakAkses_updateDataMahasiswaDanAlumni" z="j3BA5aWHDtWrLPm3elfZv/D1PVo="/>
+        <field:input field="updateDataStaffDanDosen" id="c_com_rpll_app_model_HakAkses_updateDataStaffDanDosen" z="6XX1lIo/nB97fum1+aZiZozgs1s="/>
+        <field:input field="updatePengumuman" id="c_com_rpll_app_model_HakAkses_updatePengumuman" z="I2gZEBXxOl1klH50zJ2opol9r1Y="/>
+        <field:input field="updateDataKeuangan" id="c_com_rpll_app_model_HakAkses_updateDataKeuangan" z="/gnf8N74DXDVvFWz2pq+/oTS/1k="/>
+        <field:input field="updateDataBiaya" id="c_com_rpll_app_model_HakAkses_updateDataBiaya" z="abZafxMIvxsbkKwj/L+Yb4rP/Jg="/>
+        <field:input field="updateDataPeriode" id="c_com_rpll_app_model_HakAkses_updateDataPeriode" z="ju9JJJk3jWXlHcNtcgtCWFp7Csk="/>
+        <field:input field="updateDataHakAkses" id="c_com_rpll_app_model_HakAkses_updateDataHakAkses" z="agh6qfwLiOGtBfMxPpwb7P+6L7Q="/>
+        <field:input field="programStudi" id="c_com_rpll_app_model_HakAkses_programStudi" z="dlZ7VVr7HPEba7if1LKHrQ33FQQ="/>
+        <field:input field="inputBobotNilai" id="c_com_rpll_app_model_HakAkses_inputBobotNilai" z="u6RiKJ5B6drtV9jGaQtUWovJ7nw="/>
+        <field:input field="inputNilaiMahasiswa" id="c_com_rpll_app_model_HakAkses_inputNilaiMahasiswa" z="okL0v0p30zfwQDFSQGvVnKbs2CY="/>
+        <field:input field="inputAbsensiMahasiswa" id="c_com_rpll_app_model_HakAkses_inputAbsensiMahasiswa" z="M0WARTqnDvI5huzYdWb9cvqIW1I="/>
+        <field:input field="inputBahanTugasKuliah" id="c_com_rpll_app_model_HakAkses_inputBahanTugasKuliah" z="OwEnXtgQ7dAtB+lWV0+Gh8zNvbY="/>
+        <field:input field="frsOnline" id="c_com_rpll_app_model_HakAkses_frsOnline" z="ifimdkfCiYjXKYG6bLVEhAwxmKI="/>
+        <field:input field="krsOnline" id="c_com_rpll_app_model_HakAkses_krsOnline" z="zMdFFPRqRaDnMiDhkVPRW2jOi8U="/>
+        <field:input field="kartuHasilStudi" id="c_com_rpll_app_model_HakAkses_kartuHasilStudi" z="FAGppsWhnYFA0Ow07UrcRmwvReg="/>
+        <field:input field="transkripNilaiResmiDanHistori" id="c_com_rpll_app_model_HakAkses_transkripNilaiResmiDanHistori" z="CLmUmMxMQMImazN+b4yiCA9D/Oc="/>
+        <field:input field="laporanKeuangan" id="c_com_rpll_app_model_HakAkses_laporanKeuangan" z="Kx82adBBN67sjt+IH0lS0vMTbIM="/>
+        <field:input field="viewPengumuman" id="c_com_rpll_app_model_HakAkses_viewPengumuman" z="IP/lv2E14qs2Q5nArkLj/q+xtVI="/>
+        <field:input field="isiKritikDanSaran" id="c_com_rpll_app_model_HakAkses_isiKritikDanSaran" z="BmJ4b7xuztEYsZiTmeI8EZTGQR0="/>
+        <field:input field="viewAbsensiMahasiswa" id="c_com_rpll_app_model_HakAkses_viewAbsensiMahasiswa" z="Fc+61UPpeBE367jbEWazViasEts="/>
+        <field:input field="forumKritikDanSaran" id="c_com_rpll_app_model_HakAkses_forumKritikDanSaran" z="XyDOgI9t6sfAhc239OcUxWjwGNM="/>
+        <field:input field="acceptFrsOnline" id="c_com_rpll_app_model_HakAkses_acceptFrsOnline" z="rkWfUpWgR/uBFl4rK5YLp+hg4+c="/>
+    </form:update>
+</div>

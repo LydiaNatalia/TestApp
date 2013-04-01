@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Departemen" items="${departemens}" z="uOsVJAN+hV86rovI/zGCJDWnUpc=">
+        <table:table data="${departemens}" id="l_com_rpll_app_model_Departemen" path="/departemens" typeIdFieldName="kodeDepart" z="p31sLuBxL1e/ZJv4K3RJLItTnKY=">
+            <table:column id="c_com_rpll_app_model_Departemen_kodeFakultas" property="kodeFakultas" z="hjRY1uLMbyaeTR+pbY4CdN7L+Jg="/>
+        </table:table>
+    </page:list>
+</div>

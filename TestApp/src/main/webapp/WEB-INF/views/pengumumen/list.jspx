@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Pengumuman" items="${pengumumen}" z="0bQa04U8XrGKtZcCcsfj5GbGuD0=">
+        <table:table data="${pengumumen}" id="l_com_rpll_app_model_Pengumuman" path="/pengumumen" typeIdFieldName="kodePengumuman" z="Okb5vbXkWbyUyUEtBnZ+N8S5bzs=">
+            <table:column id="c_com_rpll_app_model_Pengumuman_kodeDepart" property="kodeDepart" z="HQRr+OZhGorFGLols2RhiemIeyE="/>
+            <table:column id="c_com_rpll_app_model_Pengumuman_judul" property="judul" z="ebPEzcCsme7UWrHy/hf3AejdJDc="/>
+            <table:column id="c_com_rpll_app_model_Pengumuman_isi" property="isi" z="FH3a2wd7fN295TE8CwXtRsgh/1Q="/>
+        </table:table>
+    </page:list>
+</div>

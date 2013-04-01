@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Pegawai" items="${pegawais}" z="cAhjW6jmHrCgqy/dO4mK8e1yJOk=">
+        <table:table data="${pegawais}" id="l_com_rpll_app_model_Pegawai" path="/pegawais" typeIdFieldName="nip" z="7I0QlLBh2XNj2qKsMOsUfUIyVok=">
+            <table:column id="c_com_rpll_app_model_Pegawai_dosen" property="dosen" z="7yoFKRAzcTP2DV0v6DaaJSx9LDA="/>
+            <table:column id="c_com_rpll_app_model_Pegawai_staff" property="staff" z="e69N8qBr0RX2RQwcfQ+SQWvRko0="/>
+        </table:table>
+    </page:list>
+</div>

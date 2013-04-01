@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_HakAkses" object="${hakakses}" path="/hakakseses" z="dpNmxUIwcufUw9Dv6/vhgsZTSkc=">
+        <field:display field="updateBadanHukum" id="s_com_rpll_app_model_HakAkses_updateBadanHukum" object="${hakakses}" z="9xBtuHIviwD6w3829Za06R0AuU8="/>
+        <field:display field="updateDataFasilitas" id="s_com_rpll_app_model_HakAkses_updateDataFasilitas" object="${hakakses}" z="+ia6gBCktvvESwa/FOJfuSsCXNA="/>
+        <field:display field="updateMataKuliah" id="s_com_rpll_app_model_HakAkses_updateMataKuliah" object="${hakakses}" z="wDzpg2wG9VLbTJWTXaHdOf/FSrY="/>
+        <field:display field="updateJadwalRuanganKelas" id="s_com_rpll_app_model_HakAkses_updateJadwalRuanganKelas" object="${hakakses}" z="YvSDYLFRmg5i5WJ/haYOVefiNGY="/>
+        <field:display field="updateDataMahasiswaDanAlumni" id="s_com_rpll_app_model_HakAkses_updateDataMahasiswaDanAlumni" object="${hakakses}" z="JcMxs/flei6mNveth9UHfPFwVyY="/>
+        <field:display field="updateDataStaffDanDosen" id="s_com_rpll_app_model_HakAkses_updateDataStaffDanDosen" object="${hakakses}" z="Jb3cX59MXk53ylzFALYPUO0CvPM="/>
+        <field:display field="updatePengumuman" id="s_com_rpll_app_model_HakAkses_updatePengumuman" object="${hakakses}" z="9/VIdZEJXFV1puNBuCsT/h3QCmA="/>
+        <field:display field="updateDataKeuangan" id="s_com_rpll_app_model_HakAkses_updateDataKeuangan" object="${hakakses}" z="UtdL/Q5QBgEc/XRNrfVXBAroz7M="/>
+        <field:display field="updateDataBiaya" id="s_com_rpll_app_model_HakAkses_updateDataBiaya" object="${hakakses}" z="g8g2I+xHW6NulWgRWKlyNgjK+5Y="/>
+        <field:display field="updateDataPeriode" id="s_com_rpll_app_model_HakAkses_updateDataPeriode" object="${hakakses}" z="6LW/capm6kH/nRh1FaqAG7h791o="/>
+        <field:display field="updateDataHakAkses" id="s_com_rpll_app_model_HakAkses_updateDataHakAkses" object="${hakakses}" z="rMRdqOruV9MIUcTMxqS3GfRDD+4="/>
+        <field:display field="programStudi" id="s_com_rpll_app_model_HakAkses_programStudi" object="${hakakses}" z="VWgUSfu3TQpQ+5ORdCBBpowRgtw="/>
+        <field:display field="inputBobotNilai" id="s_com_rpll_app_model_HakAkses_inputBobotNilai" object="${hakakses}" z="PLQzKPwYiKnFA2tbULCyzxXw4Mo="/>
+        <field:display field="inputNilaiMahasiswa" id="s_com_rpll_app_model_HakAkses_inputNilaiMahasiswa" object="${hakakses}" z="haE2TpjNG3hN0eHADnhnFu/Y4tk="/>
+        <field:display field="inputAbsensiMahasiswa" id="s_com_rpll_app_model_HakAkses_inputAbsensiMahasiswa" object="${hakakses}" z="BM+QVJHFESy4AxycIcBTtdUVKjE="/>
+        <field:display field="inputBahanTugasKuliah" id="s_com_rpll_app_model_HakAkses_inputBahanTugasKuliah" object="${hakakses}" z="Y2MklpTFUKbmuDQlVQ9K8tQocp0="/>
+        <field:display field="frsOnline" id="s_com_rpll_app_model_HakAkses_frsOnline" object="${hakakses}" z="/mGzZd1YqhwREDdZ06zEr9BwXOE="/>
+        <field:display field="krsOnline" id="s_com_rpll_app_model_HakAkses_krsOnline" object="${hakakses}" z="aRDnIUoHPbtatUl3Vb219UcTaQg="/>
+        <field:display field="kartuHasilStudi" id="s_com_rpll_app_model_HakAkses_kartuHasilStudi" object="${hakakses}" z="iJbca8ntaWx8PGFa3NPIcfNybZA="/>
+        <field:display field="transkripNilaiResmiDanHistori" id="s_com_rpll_app_model_HakAkses_transkripNilaiResmiDanHistori" object="${hakakses}" z="u834YyWShcdYjlYHFk5CtNoeCno="/>
+        <field:display field="laporanKeuangan" id="s_com_rpll_app_model_HakAkses_laporanKeuangan" object="${hakakses}" z="2A2OGrsAfZAjfgBYKnGPYp/vA/U="/>
+        <field:display field="viewPengumuman" id="s_com_rpll_app_model_HakAkses_viewPengumuman" object="${hakakses}" z="30dsM9zdSasmvb5c5FsSdRQ3eHY="/>
+        <field:display field="isiKritikDanSaran" id="s_com_rpll_app_model_HakAkses_isiKritikDanSaran" object="${hakakses}" z="pW4FqV9Yoj7advnOPxWg4Kjvpdc="/>
+        <field:display field="viewAbsensiMahasiswa" id="s_com_rpll_app_model_HakAkses_viewAbsensiMahasiswa" object="${hakakses}" z="qqFpolaY422bq9YUcTtuDZshkXQ="/>
+        <field:display field="forumKritikDanSaran" id="s_com_rpll_app_model_HakAkses_forumKritikDanSaran" object="${hakakses}" z="k9vFNgo/5ddGsidkB2iAm+QsL70="/>
+        <field:display field="acceptFrsOnline" id="s_com_rpll_app_model_HakAkses_acceptFrsOnline" object="${hakakses}" z="L6mwJ67bqxeH06+7FVLXc7M3WPc="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Kelas" items="${kelases}" z="jItCIGnJ4hjgF4QnB8db2ffWe44=">
+        <table:table data="${kelases}" id="l_com_rpll_app_model_Kelas" path="/kelases" typeIdFieldName="kodeKelas" z="+04sp6T8AqTQhqT+xKl7IOH2o5s=">
+            <table:column id="c_com_rpll_app_model_Kelas_tipeKelas" property="tipeKelas" z="UZDG+Ucr/JbGvoxraL1nZdHqozo="/>
+            <table:column id="c_com_rpll_app_model_Kelas_ruangan" property="ruangan" z="su/7+heDeEMIRIT436Tzv0m9gqg="/>
+            <table:column id="c_com_rpll_app_model_Kelas_tanggal" property="tanggal" z="Chryw477nhWqAJDftNc7I5oS+UU="/>
+            <table:column id="c_com_rpll_app_model_Kelas_jam" property="jam" z="RUSMOs+rPUVmVWEn3pWS0bKlq2Q="/>
+        </table:table>
+    </page:list>
+</div>

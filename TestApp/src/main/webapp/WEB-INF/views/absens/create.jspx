@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_com_rpll_app_model_Absen" modelAttribute="absen" path="/absens" render="${empty dependencies}" z="QwSDbj9OG/CIqBfi07v5DkELA0s=">
+        <field:input disableFormBinding="true" field="id.nim" id="c_com_rpll_app_model_Absen_id_nim" required="true" z="vA99mr7AydvSRsldpz3JpZwTdFk="/>
+        <field:input disableFormBinding="true" field="id.kodeKelas" id="c_com_rpll_app_model_Absen_id_kodeKelas" required="true" z="BibPn9vaHdop8fouBLCYwQYjQUg="/>
+        <field:input disableFormBinding="true" field="id.nip" id="c_com_rpll_app_model_Absen_id_nip" required="true" z="F+JSDpsAx12fslzb+akB586gTqM="/>
+        <field:input disableFormBinding="true" field="id.kodeMatkul" id="c_com_rpll_app_model_Absen_id_kodeMatkul" required="true" z="PTRA3C2mHprnDTCOb7Y7JJP/A0g="/>
+        <field:input disableFormBinding="true" field="id.statusKehadiran" id="c_com_rpll_app_model_Absen_id_statusKehadiran" required="true" z="W+qS6nbKG9AvxVHMqiRHM8MdVUw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_rpll_app_model_Absen" render="${not empty dependencies}" z="C+89KrHaiGOjDaSmN5ZcuOJDtFE="/>
+</div>

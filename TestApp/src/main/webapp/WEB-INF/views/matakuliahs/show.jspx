@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_MataKuliah" object="${matakuliah}" path="/matakuliahs" z="2fPsaA7WoXvkhO5J+E66riy69VU=">
+        <field:display field="kodeDepart" id="s_com_rpll_app_model_MataKuliah_kodeDepart" object="${matakuliah}" z="abFELd8aZewmb6nOTubvbz5chuo="/>
+        <field:display field="namaMatkul" id="s_com_rpll_app_model_MataKuliah_namaMatkul" object="${matakuliah}" z="pHEF8avX2npmj1T2aXzKpHvFTF8="/>
+        <field:display field="prasyarat" id="s_com_rpll_app_model_MataKuliah_prasyarat" object="${matakuliah}" z="wNCyvJOjf47QH3PzevZLgGn7w+I="/>
+        <field:display field="periodeSemester" id="s_com_rpll_app_model_MataKuliah_periodeSemester" object="${matakuliah}" z="MOlcJh2wA+J38RP2//C8cFHbnKU="/>
+        <field:display field="kurikulum" id="s_com_rpll_app_model_MataKuliah_kurikulum" object="${matakuliah}" z="nin47bk09tGKKh+/SIWUgrWXHk0="/>
+        <field:display field="bobot1" id="s_com_rpll_app_model_MataKuliah_bobot1" object="${matakuliah}" z="yCar5jZynQyn057LqDFrWRcsXEM="/>
+        <field:display field="bobot2" id="s_com_rpll_app_model_MataKuliah_bobot2" object="${matakuliah}" z="EnxtUfob64Bv9s3DNsE/d/MEnNs="/>
+        <field:display field="bobot3" id="s_com_rpll_app_model_MataKuliah_bobot3" object="${matakuliah}" z="V+4P+H1PMNkhPELuKMGFs/AvDXc="/>
+        <field:display field="bobot4" id="s_com_rpll_app_model_MataKuliah_bobot4" object="${matakuliah}" z="K7MoqDw96xyKmuIbcJzIk0BbCHQ="/>
+        <field:display field="bobot5" id="s_com_rpll_app_model_MataKuliah_bobot5" object="${matakuliah}" z="0PTXZ8J2ToxPz8r+vo5rX6eh2IY="/>
+        <field:display field="bobotSks" id="s_com_rpll_app_model_MataKuliah_bobotSks" object="${matakuliah}" z="d+6okX214P3nU8MKT5sT+raQoSI="/>
+        <field:display field="uas" id="s_com_rpll_app_model_MataKuliah_uas" object="${matakuliah}" z="uOJvKt2AmAu57Iue1bd2MBqlfFg="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Fasilitas" object="${fasilitas}" path="/fasilitases" z="dGQV3zE/69sA3FtHLFyGHjWsZP0=">
+        <field:display field="luasTanah" id="s_com_rpll_app_model_Fasilitas_luasTanah" object="${fasilitas}" z="XewxCd4igO8vdFz9GPF/nMiNGOQ="/>
+        <field:display field="luasLahan" id="s_com_rpll_app_model_Fasilitas_luasLahan" object="${fasilitas}" z="tDLvmPrsYeZTJQwW08H+Y0eI9og="/>
+        <field:display field="luasRkuliah" id="s_com_rpll_app_model_Fasilitas_luasRkuliah" object="${fasilitas}" z="yPPWzM2MD37lKGknKefpxDJ3hYU="/>
+        <field:display field="jumlahRkuliah" id="s_com_rpll_app_model_Fasilitas_jumlahRkuliah" object="${fasilitas}" z="wMi2YZWOcmV0EypjbPYugC8Mvho="/>
+        <field:display field="luasRlab" id="s_com_rpll_app_model_Fasilitas_luasRlab" object="${fasilitas}" z="rOVih1pUvnh5jhL+jbNI7UDa4Ow="/>
+        <field:display field="jumlahRlab" id="s_com_rpll_app_model_Fasilitas_jumlahRlab" object="${fasilitas}" z="9aiE/yR20OvckAigR13UMOYkGro="/>
+        <field:display field="luasRdosen" id="s_com_rpll_app_model_Fasilitas_luasRdosen" object="${fasilitas}" z="K6dMMXHLADliTsKEwpHeL5W1Hls="/>
+        <field:display field="luasRdmin" id="s_com_rpll_app_model_Fasilitas_luasRdmin" object="${fasilitas}" z="3npUIO2TIVfoXWW2bkrRrNz4Rk0="/>
+    </page:show>
+</div>

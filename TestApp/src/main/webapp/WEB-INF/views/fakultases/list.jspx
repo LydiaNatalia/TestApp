@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Fakultas" items="${fakultases}" z="H42NMHQGLhbzot1zq8sTUJO3pHo=">
+        <table:table data="${fakultases}" id="l_com_rpll_app_model_Fakultas" path="/fakultases" typeIdFieldName="kodeFakultas" z="A5+41Jqef8KqoiIDFp7N4A+5svU=">
+            <table:column id="c_com_rpll_app_model_Fakultas_namaFakultas" property="namaFakultas" z="OLlr5unzKrO/CiMQ+CLfq0/lDMY="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Dosen" object="${dosen}" path="/dosens" z="QVgB39+r8zTIVadtooLAnVhOmFs=">
+        <field:display field="pegawai" id="s_com_rpll_app_model_Dosen_pegawai" object="${dosen}" z="pz77uza4WRf3/bfhb7nkYbDuuMs="/>
+        <field:display field="kodeDepart" id="s_com_rpll_app_model_Dosen_kodeDepart" object="${dosen}" z="Sry3vgkAFndBrbHrX+K9ZExR96Q="/>
+        <field:display field="passDosen" id="s_com_rpll_app_model_Dosen_passDosen" object="${dosen}" z="+PS8lZw80thEg95vStF3ELevHyk="/>
+        <field:display field="statusDosen" id="s_com_rpll_app_model_Dosen_statusDosen" object="${dosen}" z="d4kPo5LP3KzA2PNk8NjPsNiiib4="/>
+        <field:display field="gelar" id="s_com_rpll_app_model_Dosen_gelar" object="${dosen}" z="KlFfzVbwukha+AvpXtOHpmiJPSE="/>
+        <field:display field="tanggalIjazah" id="s_com_rpll_app_model_Dosen_tanggalIjazah" object="${dosen}" z="6hEZsM+xchsRJkfUEb9/hpmx8Mo="/>
+        <field:display field="kodeAsal" id="s_com_rpll_app_model_Dosen_kodeAsal" object="${dosen}" z="N/3fcR8KJewoyxEdHSF2PXpyh/U="/>
+        <field:display field="kodeNegara" id="s_com_rpll_app_model_Dosen_kodeNegara" object="${dosen}" z="CWPPvCZjtjezfmcjxPtOTVTOMzI="/>
+        <field:display field="jenjangStudi" id="s_com_rpll_app_model_Dosen_jenjangStudi" object="${dosen}" z="KsjJ2Xf7xeIIX47jZkVopna9l3c="/>
+    </page:show>
+</div>

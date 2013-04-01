@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Fasilitas" items="${fasilitases}" z="2ybH3N+toMsNZKXVhibRgirMg/8=">
+        <table:table data="${fasilitases}" id="l_com_rpll_app_model_Fasilitas" path="/fasilitases" typeIdFieldName="kodeFasilitas" z="8GVFM6CuSegeYMXqujKSc4uv4/w=">
+            <table:column id="c_com_rpll_app_model_Fasilitas_luasTanah" property="luasTanah" z="ACay1SZNCUeU7597hRbsN92eFMk="/>
+            <table:column id="c_com_rpll_app_model_Fasilitas_luasLahan" property="luasLahan" z="GYw3qf3ITYs6Xwb70pGaACJGZLE="/>
+            <table:column id="c_com_rpll_app_model_Fasilitas_luasRkuliah" property="luasRkuliah" z="aGU51C9HJODeS7gGFugu/yHjQ4A="/>
+            <table:column id="c_com_rpll_app_model_Fasilitas_jumlahRkuliah" property="jumlahRkuliah" z="0j5Ops1iwe+DHkBjURbBt3MjYqI="/>
+            <table:column id="c_com_rpll_app_model_Fasilitas_luasRlab" property="luasRlab" z="KzQt1ClWbxiu89Tuy2yOPx+VghQ="/>
+        </table:table>
+    </page:list>
+</div>

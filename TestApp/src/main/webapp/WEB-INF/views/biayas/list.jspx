@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Biaya" items="${biayas}" z="zZOAALtgN+uCYC9o/hWlLMQ7ce4=">
+        <table:table data="${biayas}" id="l_com_rpll_app_model_Biaya" path="/biayas" typeIdFieldName="kodeBiaya" z="O34q87cLFrpik8ESHrLWstlnHtI=">
+            <table:column id="c_com_rpll_app_model_Biaya_biayaTetap" property="biayaTetap" z="cAp7Wj6WXSSwtL8F13ZAo3FiuYI="/>
+            <table:column id="c_com_rpll_app_model_Biaya_biayaSks" property="biayaSks" z="gCZ2kkYmclMT8mfHZJlYmBn72vc="/>
+            <table:column id="c_com_rpll_app_model_Biaya_biayaPraktikum" property="biayaPraktikum" z="MdC8vmvOUGfNg0WJX6kEjxz0hpc="/>
+            <table:column id="c_com_rpll_app_model_Biaya_biayaMhs" property="biayaMhs" z="J2sOc2iBFow7AHvd7jcSwzeAHBY="/>
+        </table:table>
+    </page:list>
+</div>

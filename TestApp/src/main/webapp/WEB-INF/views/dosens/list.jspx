@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Dosen" items="${dosens}" z="ZfS1jBUOgBr45AYdflGw7JCIISI=">
+        <table:table data="${dosens}" id="l_com_rpll_app_model_Dosen" path="/dosens" typeIdFieldName="nip" z="9qLzs07+FBsyQX6xNJOOXpME2a8=">
+            <table:column id="c_com_rpll_app_model_Dosen_pegawai" property="pegawai" z="bNLmcORFUIPnYmRiPOBYAQk8WYA="/>
+            <table:column id="c_com_rpll_app_model_Dosen_kodeDepart" property="kodeDepart" z="BVGa8KTkG7mkPEpaV1v9ZIzdzZ8="/>
+            <table:column id="c_com_rpll_app_model_Dosen_passDosen" property="passDosen" z="r5e8e+sYDNsHcCVaNo4raL/KX3Y="/>
+            <table:column id="c_com_rpll_app_model_Dosen_statusDosen" property="statusDosen" z="mGWIvPUrZRNNWDIPpH7Sp1BWXfk="/>
+            <table:column id="c_com_rpll_app_model_Dosen_gelar" property="gelar" z="adpu8D38XApnZZcf4DEycw7W6OY="/>
+            <table:column id="c_com_rpll_app_model_Dosen_tanggalIjazah" property="tanggalIjazah" z="kLqKv0IzdiBy5AQEbmRJW/4NSkc="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Periode" items="${periodes}" z="rYzNuvBWUHqmy44KId+GBiDtK8Q=">
+        <table:table data="${periodes}" id="l_com_rpll_app_model_Periode" path="/periodes" typeIdFieldName="kodePeriode" z="eQ6BmwEgEuXelavHoIuJs+dY6S8=">
+            <table:column id="c_com_rpll_app_model_Periode_kodeDepart" property="kodeDepart" z="9nNddphRr5bBoDAHH+RyB9LOWXs="/>
+            <table:column id="c_com_rpll_app_model_Periode_namaPeriode" property="namaPeriode" z="2V/+a0y/NT+dlp138p2smTOlNzk="/>
+            <table:column id="c_com_rpll_app_model_Periode_awal" property="awal" z="PCrwxd2wMheRssc7iHXpmrAVWwg="/>
+            <table:column id="c_com_rpll_app_model_Periode_akhir" property="akhir" z="3QLvZYqsoDA5t6Ox34OLoqjrx7o="/>
+        </table:table>
+    </page:list>
+</div>

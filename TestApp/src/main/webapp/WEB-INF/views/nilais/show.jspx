@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Nilai" object="${nilai}" path="/nilais" z="o4pWx8aiexmhrS6+Q29LXMxwmvQ=">
+        <field:display field="nim" id="s_com_rpll_app_model_Nilai_nim" object="${nilai}" z="qd1nU78eNr+SblPcDUPpox6GSbI="/>
+        <field:display field="kodeMatkul" id="s_com_rpll_app_model_Nilai_kodeMatkul" object="${nilai}" z="LK1wzbCatTQArsxPdoqpxXkpxrs="/>
+        <field:display field="indeks" id="s_com_rpll_app_model_Nilai_indeks" object="${nilai}" z="30tHdnmJYtGTN/VMRfrrl2WNlp0="/>
+        <field:display field="semester" id="s_com_rpll_app_model_Nilai_semester" object="${nilai}" z="ZpOP/OnvY8P57UiSI71h8lSRzAY="/>
+        <field:display field="nilai1" id="s_com_rpll_app_model_Nilai_nilai1" object="${nilai}" z="LA4gAmOirg1I34cJxR1Oas+zRrc="/>
+        <field:display field="nilai2" id="s_com_rpll_app_model_Nilai_nilai2" object="${nilai}" z="hsK8pQeJAzjSbZsE6nJxAZyR7cE="/>
+        <field:display field="nilai3" id="s_com_rpll_app_model_Nilai_nilai3" object="${nilai}" z="kB4QAhEOXYwQll7SjPGzymO4EAw="/>
+        <field:display field="nilai4" id="s_com_rpll_app_model_Nilai_nilai4" object="${nilai}" z="sazS/nVC5q9AWJwf1d7PiowHebc="/>
+        <field:display field="nilai5" id="s_com_rpll_app_model_Nilai_nilai5" object="${nilai}" z="Tw/ImcIhnjmZxH0f0jqIaWq+xv4="/>
+        <field:display field="uas" id="s_com_rpll_app_model_Nilai_uas" object="${nilai}" z="TWCU48IxEsRRgCVuqv/gZpCHFQM="/>
+    </page:show>
+</div>

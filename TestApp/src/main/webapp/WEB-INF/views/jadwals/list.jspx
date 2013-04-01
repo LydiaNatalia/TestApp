@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Jadwal" items="${jadwals}" z="lw5T7SP275fkNWoaZiQ7gQIKr2c=">
+        <table:table data="${jadwals}" id="l_com_rpll_app_model_Jadwal" path="/jadwals" z="owCvBl2mzegc8hdZgH+dV3NP/O4=">
+            <table:column id="c_com_rpll_app_model_Jadwal_kodeKelas" property="kodeKelas" z="WrURLkyM++e9B/v9Zr+z5JDEkbk="/>
+            <table:column id="c_com_rpll_app_model_Jadwal_nip" property="nip" z="57nrAYNAn7tKBFeig0Vl2k3R72g="/>
+            <table:column id="c_com_rpll_app_model_Jadwal_kodeMatkul" property="kodeMatkul" z="GQ/eIGCiTxCOFuweYKAXzBHuboY="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_BadanHukum" object="${badanhukum}" path="/badanhukums" z="qT4GkmPTgmDt5S3nQEb93J+ot4c=">
+        <field:display field="kodeFasilitas" id="s_com_rpll_app_model_BadanHukum_kodeFasilitas" object="${badanhukum}" z="UqiQn6vLHZ4RIZ6eW01x+ATqFAQ="/>
+        <field:display field="namaBhukum" id="s_com_rpll_app_model_BadanHukum_namaBhukum" object="${badanhukum}" z="y0trFYitZ9SFTi3D12/jZqn4ss8="/>
+        <field:display field="tanggalBerdiri" id="s_com_rpll_app_model_BadanHukum_tanggalBerdiri" object="${badanhukum}" z="UZm+evpw/UJpw6ii0mR1U4ghLt0="/>
+        <field:display field="nomorAkta" id="s_com_rpll_app_model_BadanHukum_nomorAkta" object="${badanhukum}" z="R7kEpF/6cRfkUm4QPv7WJO/g9rM="/>
+        <field:display field="tanggalAkta" id="s_com_rpll_app_model_BadanHukum_tanggalAkta" object="${badanhukum}" z="8vxJ0qyTcFfs2hN8pw48BBsh93c="/>
+        <field:display field="kota" id="s_com_rpll_app_model_BadanHukum_kota" object="${badanhukum}" z="ltT9iMLEB01mhYpYg9dIyBuqhus="/>
+        <field:display field="alamat" id="s_com_rpll_app_model_BadanHukum_alamat" object="${badanhukum}" z="YVOIAkJKecYTUJ37hUlqFgvnb9U="/>
+        <field:display field="kodePos" id="s_com_rpll_app_model_BadanHukum_kodePos" object="${badanhukum}" z="CXmlRqOg20EMIwYc9pDZR5S5pxo="/>
+        <field:display field="nomorPengesahan" id="s_com_rpll_app_model_BadanHukum_nomorPengesahan" object="${badanhukum}" z="vXp+hyihIn7Je0vObYoG4HUrXbM="/>
+        <field:display field="tanggalPengesahan" id="s_com_rpll_app_model_BadanHukum_tanggalPengesahan" object="${badanhukum}" z="5o/je7QknQHa4tEk/ynXIPEYVDA="/>
+        <field:display field="telepon" id="s_com_rpll_app_model_BadanHukum_telepon" object="${badanhukum}" z="5jKGwImvzRzPbnNTOvxcTfkehGw="/>
+        <field:display field="faks" id="s_com_rpll_app_model_BadanHukum_faks" object="${badanhukum}" z="9sneFur3z/jd1UwgxdIfLnshb80="/>
+        <field:display field="homepage" id="s_com_rpll_app_model_BadanHukum_homepage" object="${badanhukum}" z="4Jt+V2Csd+BrKCR4hNFR6epXepE="/>
+        <field:display field="email" id="s_com_rpll_app_model_BadanHukum_email" object="${badanhukum}" z="xK/DDACVsA+js831b+qqiagq+cw="/>
+    </page:show>
+</div>

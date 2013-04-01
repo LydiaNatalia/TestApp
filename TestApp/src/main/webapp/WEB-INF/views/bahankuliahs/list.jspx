@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_BahanKuliah" items="${bahankuliahs}" z="6eE6tb5ZAPkM7/fZAuxq3AS9Qf0=">
+        <table:table data="${bahankuliahs}" id="l_com_rpll_app_model_BahanKuliah" path="/bahankuliahs" typeIdFieldName="kodeBahan" z="0ILUBwidrmPP8awjJNb8S6GbepU=">
+            <table:column id="c_com_rpll_app_model_BahanKuliah_kodeMatkul" property="kodeMatkul" z="kMr9cYQC50YMCEppt7wQZujkx1k="/>
+            <table:column id="c_com_rpll_app_model_BahanKuliah_namaBahan" property="namaBahan" z="5c2FAKQvTMbsIWpbpR0YnIPTZpg="/>
+            <table:column id="c_com_rpll_app_model_BahanKuliah_bahan" property="bahan" z="2UVBYwNyy66u331udoWWJW7rIqI="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-01 13:39:37
+project --topLevelPackage com.rpll.app --projectName TestApp --java 6 --packaging WAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-04-01 13:39:53
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-01 13:40:33
+persistence setup --database MYSQL --provider HIBERNATE --databaseName sia --userName root
+// [failed] database reverse engineer --schema sia --package com.rpll.app.model --testAutomatically
+// [failed] database reverse engineer --schema sia --package com.rpll.app.model --testAutomatically
+osgi start --url file///D:/mysql-connector-java-5.1.18-bin.jar
+osgi start --url file///D:\mysql-connector-java-5.1.18-bin.jar
+osgi start --url file///D:\mysql-connector-java-5.1.24-bin.jar
+osgi start --url file///D:/mysql-connector-java-5.1.24-bin.jar
+osgi start --url file:///D:/mysql-connector-java-5.1.24-bin.jar
+// [failed] database reverse engineer --schema sia --package com.rpll.app.model --testAutomatically
+database reverse engineer --schema sia --package com.rpll.app.model --testAutomatically
+controller all --package com.rpll.app.web 

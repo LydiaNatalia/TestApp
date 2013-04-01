@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_KritikSaran" items="${kritiksarans}" z="hxoOqEgC7Nsv18W6hbkdV3tQ1+k=">
+        <table:table data="${kritiksarans}" id="l_com_rpll_app_model_KritikSaran" path="/kritiksarans" typeIdFieldName="kodeKritik" z="XovDIgWUjJXTMUTKr/bdK3xX5bI=">
+            <table:column id="c_com_rpll_app_model_KritikSaran_nim" property="nim" z="Grh23JJhTcmHiU6/ZicNdDqx8zY="/>
+            <table:column id="c_com_rpll_app_model_KritikSaran_isiKritik" property="isiKritik" z="pGIsULoWBiJ8fL/DdmKca8OPpZk="/>
+        </table:table>
+    </page:list>
+</div>

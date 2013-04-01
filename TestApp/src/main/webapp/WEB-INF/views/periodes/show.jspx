@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rpll_app_model_Periode" object="${periode}" path="/periodes" z="NNCQnvGqCgr5v0wyrHAdT5diGFc=">
+        <field:display field="kodeDepart" id="s_com_rpll_app_model_Periode_kodeDepart" object="${periode}" z="1+XRVvYsIO/qYu9JHBMigAHOqWw="/>
+        <field:display field="namaPeriode" id="s_com_rpll_app_model_Periode_namaPeriode" object="${periode}" z="fpEaX5p6/PJppBQoHSI2gCnsb/o="/>
+        <field:display field="awal" id="s_com_rpll_app_model_Periode_awal" object="${periode}" z="xQ+TjgsZMAW4umomh2bUgjzFgKg="/>
+        <field:display field="akhir" id="s_com_rpll_app_model_Periode_akhir" object="${periode}" z="i6TUd78X2+JjSckGoF2lKn3t03k="/>
+    </page:show>
+</div>

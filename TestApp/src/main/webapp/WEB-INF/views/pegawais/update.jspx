@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rpll_app_model_Pegawai" idField="nip" modelAttribute="pegawai" path="/pegawais" versionField="none" z="0VTCzFPMyV2Ihd4EOJnDeTCeMfE=">
+        <field:select field="dosen" id="c_com_rpll_app_model_Pegawai_dosen" itemValue="nip" items="${dosens}" path="/dosens" z="XjFYxYi4x1+lmTXqM3jTnvhjZBo="/>
+        <field:select field="staff" id="c_com_rpll_app_model_Pegawai_staff" itemValue="nip" items="${staffs}" path="/staffs" z="FyHgmwzNxylJkod80wFpkSGO27o="/>
+        <field:simple field="absens" id="c_com_rpll_app_model_Pegawai_absens" messageCode="entity_reference_not_managed" messageCodeAttribute="Absen" z="6cPjNJtG690RzEa5ooEepyTvn8g="/>
+        <field:simple field="departemens" id="c_com_rpll_app_model_Pegawai_departemens" messageCode="entity_reference_not_managed" messageCodeAttribute="Departemen" z="UhOhdW2pzKGgDw+2ujSq5aOc/lA="/>
+        <field:simple field="frss" id="c_com_rpll_app_model_Pegawai_frss" messageCode="entity_reference_not_managed" messageCodeAttribute="Frs" z="1DJEd6l/T1GM8nuDVsaN2cScoGU="/>
+        <field:simple field="jadwals" id="c_com_rpll_app_model_Pegawai_jadwals" messageCode="entity_reference_not_managed" messageCodeAttribute="Jadwal" z="flvnjoCwlEPi/ZUusvOSI4KKB0Y="/>
+        <field:simple field="mahasiswas" id="c_com_rpll_app_model_Pegawai_mahasiswas" messageCode="entity_reference_not_managed" messageCodeAttribute="Mahasiswa" z="m9ciAJjBtgWf/wX/m7nG61r6gzw="/>
+        <field:simple field="tanggungJawabs" id="c_com_rpll_app_model_Pegawai_tanggungJawabs" messageCode="entity_reference_not_managed" messageCodeAttribute="Tanggung Jawab" z="vdv5irheAFGHbt0L3gZdWoJr36g="/>
+        <field:input field="namaPegawai" id="c_com_rpll_app_model_Pegawai_namaPegawai" z="+wsNIRrUlBkeMN5rr7Hb+KNIWTQ="/>
+    </form:update>
+</div>

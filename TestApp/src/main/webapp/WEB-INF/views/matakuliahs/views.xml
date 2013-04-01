@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="matakuliahs/list">
+        <put-attribute name="body" value="/WEB-INF/views/matakuliahs/list.jspx"/>
+    </definition>
+<definition extends="default" name="matakuliahs/show">
+        <put-attribute name="body" value="/WEB-INF/views/matakuliahs/show.jspx"/>
+    </definition>
+<definition extends="default" name="matakuliahs/create">
+        <put-attribute name="body" value="/WEB-INF/views/matakuliahs/create.jspx"/>
+    </definition>
+<definition extends="default" name="matakuliahs/update">
+        <put-attribute name="body" value="/WEB-INF/views/matakuliahs/update.jspx"/>
+    </definition>
+</tiles-definitions>

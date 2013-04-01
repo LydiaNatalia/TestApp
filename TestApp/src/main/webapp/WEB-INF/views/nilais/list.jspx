@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_rpll_app_model_Nilai" items="${nilais}" z="1eycfK6naCC5W3DdhkO0fwLSKkw=">
+        <table:table data="${nilais}" id="l_com_rpll_app_model_Nilai" path="/nilais" z="Gq3soAZxJZULnt5hdIEJL0urn2M=">
+            <table:column id="c_com_rpll_app_model_Nilai_nim" property="nim" z="CdumYlo2jWD59eR3aVCJa0j/L2M="/>
+            <table:column id="c_com_rpll_app_model_Nilai_kodeMatkul" property="kodeMatkul" z="ZIWIUpj9EvFd87i/stXh8oFsffs="/>
+            <table:column id="c_com_rpll_app_model_Nilai_indeks" property="indeks" z="h8Z/R2J6zdZMeM9l2l1pCCy7Hhw="/>
+            <table:column id="c_com_rpll_app_model_Nilai_semester" property="semester" z="Q1DMsKWih1J//eO5k98UKzw6l3o="/>
+            <table:column id="c_com_rpll_app_model_Nilai_nilai1" property="nilai1" z="afLGXpkuvOUyRr8x0bcYe4DideE="/>
+            <table:column id="c_com_rpll_app_model_Nilai_nilai2" property="nilai2" z="Fte/7O6EwaVaaVQYTian7a0IRBY="/>
+        </table:table>
+    </page:list>
+</div>
